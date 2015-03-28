@@ -17,6 +17,8 @@ var app = new EmberApp();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
+app.import('app/styles/base.css');
+
 app.import({
 	development: app.bowerDirectory + '/d3/d3.js',
 	production: app.bowerDirectory + '/d3/d3.min.js'
