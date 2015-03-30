@@ -25,7 +25,7 @@ export default Ember.View.extend({
 		    .innerRadius(function(d) { return d.index * radius; })
 		    .outerRadius(function(d) { return (d.index + spacing) * radius; });
 
-		var svg = d3.select("body").append("svg")
+		var svg = d3.select('#clock').append("svg")
 		    .attr("width", width)
 		    .attr("height", height)
 		  .append("g")

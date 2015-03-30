@@ -7,6 +7,9 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('polar-clock');
+  this.route('bar-chart');
+  this.route('seahawks');
+  this.route('pie-chart');
 });
 
 export default Router;
